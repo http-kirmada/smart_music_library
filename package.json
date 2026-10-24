@@ -1,0 +1,27 @@
+{
+  "name": "smart-music-library",
+  "version": "1.0.0",
+  "description": "Smart Music Library & Graph-Based Recommendation System with Classical Data Structures",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-pdf": "node generate_pdf.js"
+  },
+  "keywords": [
+    "music",
+    "dsa",
+    "graph",
+    "tree",
+    "doubly-linked-list",
+    "queue",
+    "stack",
+    "hash-table"
+  ],
+  "author": "Harsh",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0"
+  }
+}
